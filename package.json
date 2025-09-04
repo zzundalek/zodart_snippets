@@ -1,0 +1,32 @@
+{
+  "name": "zodart-snippets",
+  "displayName": "ZodArt Snippets",
+  "description": "Quick and easy ZodArt snippets",
+  "author": "Zbynek Zundalek",
+  "license": "MIT",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.103.0"
+  },
+  "publisher": "mergepanic",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/zzundalek/zodart_snippets"
+  },
+  "keywords": [
+    "flutter",
+    "dart",
+    "zodart"
+  ],
+  "categories": [
+    "Snippets"
+  ],
+  "contributes": {
+    "snippets": [
+      {
+        "language": "dart",
+        "path": "./snippets/snippets.code-snippets"
+      }
+    ]
+  }
+}

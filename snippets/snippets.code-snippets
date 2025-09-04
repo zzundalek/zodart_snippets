@@ -1,0 +1,47 @@
+{
+	"ZodArt: schema - new class": {
+		"scope": "dart",
+		"prefix": "zodartSchemaNewClass",
+		"body": [
+			"@ZodArt.generateNewClass(outputClassName: '${1:Output}')",
+			"abstract class ${1:Output}Schema {",
+			"  static final schema = (${2:id: ZInt(),});",
+			"",
+			"  static const z = _${1:Output}SchemaUtils();",
+			"  static final ZObject<${1:Output}> zObject = z.zObject;",
+			"}",
+			"$0",
+		],
+		"description": "Creates schema using new class as output"
+	},
+	"ZodArt: schema - existing class": {
+		"scope": "dart",
+		"prefix": "zodartSchemaExistingClass",
+		"body": [
+			"@ZodArt.withExistingClass(outputClassType: ${1:Output})",
+			"abstract class ${1:Output}Schema {",
+			"  static final schema = (${2:id: ZInt(),});",
+			"",
+			"  static const z = _${1:Output}SchemaUtils();",
+			"  static final ZObject<${1:Output}> zObject = z.zObject;",
+			"}",
+			"$0",
+		],
+		"description": "Creates schema using existing class as output"
+	},
+	"ZodArt: schema - record": {
+		"scope": "dart",
+		"prefix": "zodartSchemaRecord",
+		"body": [
+			"@ZodArt.withRecord(outputRecordType: ${1:Output})",
+			"abstract class ${1:Output}Schema {",
+			"  static final schema = (${2:id: ZInt(),});",
+			"",
+			"  static const z = _${1:Output}SchemaUtils();",
+			"  static final ZObject<${1:Output}> zObject = z.zObject;",
+			"}",
+			"$0",
+		],
+		"description": "Creates schema using record type as output"
+	}
+}
