@@ -8,7 +8,7 @@
   "engines": {
     "vscode": "^1.103.0"
   },
-  "publisher": "mergepanic.com",
+  "publisher": "mergepanic",
   "repository": {
     "type": "git",
     "url": "https://github.com/zzundalek/zodart_snippets"
