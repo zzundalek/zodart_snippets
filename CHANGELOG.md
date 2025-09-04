@@ -4,6 +4,6 @@ All notable changes to the "zodart-snippets" extension will be documented in thi
 
 Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how to structure this file.
 
-## [Unreleased]
+## 0.0.1 - 2025-09-04
 
 - Initial release
